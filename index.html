@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lugares del Perú</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+          document.getElementById("btnMP").addEventListener("click",function(){
+            alert("Hola");
+          
+        
+            window.open("https://www.machupicchu.gob.pe/", "_blank")
+        });
+    });
+
+    </script>
 </head>
 <body>
     <h1>CIUDADES DEL PERU</h1>
@@ -19,8 +30,8 @@
             <li>Explorar ruinas antiguas</li>
         </ul>
         <img src="images/machuPicchu.jfif" alt="Huamanga, Ayacucho">
-        <p>Mas información en: <a href="https://www.machupicchu.gob.pe/" 
-            target="_blank">Machu Picchu</a></p>
+        <p>Mas información en: 
+            <button id="btnMP"> Machu Picchu</button></p>
     </section>
     <section>
         <h2>Arequipa</h2>
